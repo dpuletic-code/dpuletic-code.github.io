@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="sr-Latn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Moja prva stranica</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #fff; --text: #2c2c2b; --muted: #62605c; --accent: #176abe; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100svh; display: grid; place-items: center; padding: 24px; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { width: 100%; max-width: 680px; padding-block: 48px; }
+    .label { margin: 0 0 24px; color: var(--accent); font-size: 14px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+    h1 { margin: 0 0 16px; font-size: clamp(40px, 9vw, 64px); line-height: 1.1; letter-spacing: -.04em; }
+    .intro { margin: 0; color: var(--muted); font-size: 20px; line-height: 1.6; }
+    footer { margin-top: 48px; border-top: 1px solid #a6a39e; padding-top: 24px; color: var(--muted); font-size: 14px; line-height: 1.5; overflow-wrap: anywhere; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #191919; --text: #fff; --muted: #bdbdbd; --accent: #5e9fe8; } }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="label">Moja prva web stranica</p>
+    <h1>Hello, World!</h1>
+    <p class="intro">Dobro došli! Ovo je moja prva stranica na GitHub Pages.</p>
+    <footer>dpuletic-code.github.io</footer>
+  </main>
+</body>
+</html>
